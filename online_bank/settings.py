@@ -34,9 +34,9 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
 
     
-    # 'jazzmin',
+    'jazzmin',
 
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -138,7 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL ='userauths.User'
 
 JAZZMIN_SETTINGS = {
-
+    "site_title" :"Online Bank",
     "site_header" : "Online Bank",
     "site_brand" : "Online Bank Admin",
     #site log : images/logo.jpg
